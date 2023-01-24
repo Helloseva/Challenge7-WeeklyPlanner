@@ -1,20 +1,12 @@
 //running clock at top of page
-setInterval(function () {
-    var clock = moment().format("MMMM Do YYYY, h:mm:ss a");
-    $("#currentDay").text(clock);
-  }, 1000);
+var nMoment = moment().format("MMMM Do YYYY");
+var display = $("#currentDay");
+display.text(nMoment);
 
-  //past,present,future timeblocks with respective colors
+//grabs and names correct current hour in a 24 hour clock //
 var cal = new Date();
-var currentHour = cal.getHours(); // grabs number from 0-23 on a 24 hour clock
+var currentHour = cal.getHours(); 
 console.log(currentHour);
 
-for (var i = 9; i < 18; i++) {
-  if (i < currentHour) {
-    document.getElementById("row-" + i).classList.add("past");
-  } else if (i === currentHour) {
-    document.getElementById("row-" + i).classList.add("present");
-  } else if (i > currentHour) {
-    document.getElementById("row-" + i).classList.add("future");
-  }
-}
+
+
