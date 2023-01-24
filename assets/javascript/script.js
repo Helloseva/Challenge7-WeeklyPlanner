@@ -8,5 +8,14 @@ var cal = new Date();
 var currentHour = cal.getHours(); 
 console.log(currentHour);
 
-
+//past,present,future timeblocks with respective colors
+for (var i = 9; i < 18; i++) {
+  if (i < currentHour) {
+    document.getElementById("row-" + i).classList.add("past");
+  } else if (i === currentHour) {
+    document.getElementById("row-" + i).classList.add("present");
+  } else if (i > currentHour) {
+    document.getElementById("row-" + i).classList.add("future");
+  }
+}
 
