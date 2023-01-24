@@ -1,9 +1,6 @@
 # Challenge7-WeeklyPlanner
  a simple calendar application that allows a user to save events for each hour of the day by modifying starter code.
 
-# Challenge6-CodingQuiz
-a timed coding quiz with multiple-choice questions built using JavaScript fundamentals.
-
 ## Links
 
 https://helloseva.github.io/Challenge7-WeeklyPlanner/ 
