@@ -34,7 +34,12 @@ This week’s Challenge as a part of the bootcamp required to create a calendar 
 
 ## Usage 
 
-This page is about using basic JavaScript skills to create a financial analysis tool. It can be used to have a look at basic concepts of JS. 
+
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
+
+This page is about using DOM manipulation, advanced JavaScript skills, integration of third-party APIs skills to create a daily planner to manage time effectively.
 
 Screeshot of the Web Page:
 
